@@ -1,0 +1,6 @@
+note over browser:
+after the message is submitted by user browser 
+creates event handler which adds note to the list 
+end note
+browser->server: HTTP POST new_note_spa
+server->browser: HTTP 201 created
